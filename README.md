@@ -28,6 +28,11 @@ A scheduling app to make appointments with barbers. It also shows the provider's
 - [Nodemailer](https://nodemailer.com/about/)
 - [date-fns](https://date-fns.org/)
 - [DotEnv](https://www.npmjs.com/package/dotenv)
+- [ioredis](https://github.com/luin/ioredis)
+- [cors](https://expressjs.com/en/resources/middleware/cors.html)
+- [express-brute](https://www.npmjs.com/package/express-brute)
+- [express-rate-limit](https://www.npmjs.com/package/express-rate-limit)
+- [helmet](https://helmetjs.github.io/)
 
 ## Requirement
 
