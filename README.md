@@ -14,6 +14,7 @@ A scheduling app to make appointments with barbers. It also shows the provider's
 - [Express](https://expressjs.com/)
 - [nodemon](https://nodemon.io/)
 - [Docker](https://www.docker.com/docker-community)
+- [Docker-Compose](https://docs.docker.com/compose/install/)
 - [Sequelize](http://docs.sequelizejs.com/)
 - [PostgreSQL](https://www.postgresql.org/)
 - [node-postgres](https://www.npmjs.com/package/pg)
@@ -33,18 +34,16 @@ A scheduling app to make appointments with barbers. It also shows the provider's
 - [express-brute](https://www.npmjs.com/package/express-brute)
 - [express-rate-limit](https://www.npmjs.com/package/express-rate-limit)
 - [helmet](https://helmetjs.github.io/)
+- [Docker-Compose](https://docs.docker.com/compose/install/)
 
 ## Requirement
 
 - [Node.js](https://nodejs.org/en/)
 - [Yarn](https://yarnpkg.com/pt-BR/docs/install)
+- [Docker](https://www.docker.com/docker-community)
+- [Docker-Compose](https://docs.docker.com/compose/install/)
 
 ## Installation and Run
 
-1. Run `yarn` to install dependencies;
-2. Create a `.env` file like `.env.example`;
-3. Run `yarn sequelize db:create` to create the database;
-4. Run `yarn sequelize db:migrate` to create the tables;
-5. Run `yarn dev` to initiale in dev mode;
-6. Run `yarn start` to initiale in production mode;
-7. Run `yarn queue` to initiale the server for the backgroud jobs.
+1. Create a `.env` file like `.env.example` with the credentials and informations;
+2. Run `docker-compose up`
