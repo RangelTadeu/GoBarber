@@ -10,7 +10,7 @@ A scheduling app to make appointments with barbers. It also shows the provider's
 
 ## technologies
 
-- [Node.js][nodejs]
+- [Node.js](https://nodejs.org/en/)
 - [Express](https://expressjs.com/)
 - [nodemon](https://nodemon.io/)
 - [Docker](https://www.docker.com/docker-community)
@@ -34,12 +34,9 @@ A scheduling app to make appointments with barbers. It also shows the provider's
 - [express-brute](https://www.npmjs.com/package/express-brute)
 - [express-rate-limit](https://www.npmjs.com/package/express-rate-limit)
 - [helmet](https://helmetjs.github.io/)
-- [Docker-Compose](https://docs.docker.com/compose/install/)
 
 ## Requirement
 
-- [Node.js](https://nodejs.org/en/)
-- [Yarn](https://yarnpkg.com/pt-BR/docs/install)
 - [Docker](https://www.docker.com/docker-community)
 - [Docker-Compose](https://docs.docker.com/compose/install/)
 
